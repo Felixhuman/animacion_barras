@@ -1,6 +1,8 @@
+/* clase contenedor, hace que todas las barras se pongan en linea horizontal */
 .contenedor{
     display:flex;
 }
+/* clase comun, guarda todos los atributos que tienen en comun, por ejemplo, tamaño, color, nombre de la animación, etc. */
 .comun{
     width: 20px;
     height: 20px;
@@ -13,6 +15,7 @@
     animation-name:animacion;
 
 }
+/* clases individuales, se le agrega el delay de cada animación, .10 seg. por cada una */
 .principal{
     animation-delay:.1s;
 }
@@ -43,7 +46,7 @@
 .decimo{
     animation-delay:.9s;
 }
-
+/* animación, aquí se define, que va a suceder en la animación, dependiendo del porcentaje de esta */
 @keyframes animacion{
 0%{ height:40px; background-color:#0003ff}
 25%{ height: 60px; background-color:#a400ff}
