@@ -1,0 +1,53 @@
+.contenedor{
+    display:flex;
+}
+.comun{
+    width: 20px;
+    height: 20px;
+    background-color:#0003ff;
+    border-radius:25px;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 5px;
+    animation-name:animacion;
+
+}
+.principal{
+    animation-delay:.1s;
+}
+.segundo{
+    animation-delay:.2s;
+}
+.tercero{
+    animation-delay:.3s;
+}
+.cuarto{
+    animation-delay:.4s;
+}
+.quinto{
+    animation-delay:.5s;
+}
+.sexto{
+    animation-delay:.6s;
+}
+.septimo{
+    animation-delay:.7s;
+}
+.octavo{
+    animation-delay:.7s;
+}
+.noveno{
+    animation-delay:.8s;
+}
+.decimo{
+    animation-delay:.9s;
+}
+
+@keyframes animacion{
+0%{ height:40px; background-color:#0003ff}
+25%{ height: 60px; background-color:#a400ff}
+50%{ height: 80px; background-color:#ff009d }
+75%{ height: 60px; background-color:#ff0a00}
+100%{ height: 40px; background-color:#ff7300}
+}
